@@ -1,0 +1,1205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#scrollToTop {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    box-shadow: 0 0 14px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 4px;
+    cursor: pointer;
+}
+
+#scrollToTop:hover {
+    animation: rotate 2s linear infinite;
+}
+
+
+// This is navigation
+header {
+    display: flex;
+    flex: 1 1 400px;
+    flex-wrap: wrap;
+    height: 10vw;
+    width: 100%;
+    background-color: black;
+
+    div {
+        width: 20%;
+
+        img {
+            height: 85%;
+            width: 100%;
+        }
+    }
+
+    nav {
+        width: 80%;
+        font-family: 'Grechen Fuemen', cursive;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex: 1 1 350px;
+
+            li {
+                width: 200px;
+                text-align: center;
+
+                a {
+                    word-break: break-word;
+                    font-size: 2.5rem;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+            a:hover {
+                color: red;
+            }
+        }
+    }
+}
+
+// This is page1(Aerobic Exercise)
+section#pageOne {
+    position: relative;
+
+    article {
+        p {
+            font-size: 1.25rem;
+            margin: 1.5rem 2.5rem;
+
+            span {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    div.photos {
+        display: flex;
+        margin: 2rem;
+
+        div.photobtn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            div.photoContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    margin: 0rem 3.5rem;
+                    width: 15vw;
+                    height: 15vw;
+                    border-radius: 50%;
+                }
+
+                img:hover {
+                    transform: scale(1.2);
+                }
+            }
+
+            button {
+                font-family: 'Grechen Fuemen', cursive;
+                color: rgb(255, 0, 0);
+                background-color: black;
+                font-size: 2rem;
+                border-radius: 30px;
+                width: 55%;
+                margin: 2rem 0;
+            }
+
+            button:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+.active {
+    color: red;
+}
+
+// This is page2(Weight training)
+section#pageTwo {
+
+    // position: relative;
+    article {
+        p {
+            font-size: 1.25rem;
+            margin: 1.5rem 2.5rem;
+
+            span {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    div.photoBox {
+        margin: 3rem;
+
+        div.chestBack {
+            display: flex;
+            justify-content: start;
+
+            div.whiteSpace {
+                width: 23vw;
+                height: 10vw;
+                background-color: white;
+            }
+
+            div.blackLeft {
+                display: flex;
+                flex-direction: column;
+
+                div.blackContainer1 {
+                    height: 21vh;
+
+                    div.black {
+                        width: 25vw;
+                        height: 4vw;
+                        background-color: black;
+                        position: relative;
+                    }
+
+                    div.blackOneMove {
+                        top: 0vw;
+                    }
+
+                    div.content {
+                        font-family: 'Grechen Fuemen', cursive;
+                        font-size: 2rem;
+                        color: red;
+                        height: 10vh;
+                        position: relative;
+                        top: -60px;
+                        left: -20px;
+                    }
+
+                    div.chestMove {
+                        transform: translate(35px, 10px);
+                        font-size: 3rem;
+                    }
+
+                    div.more {
+                        font-family: 'Grechen Fuemen', cursive;
+                        font-size: 1.5rem;
+                        color: rgb(255, 255, 255);
+                        cursor: pointer;
+                        position: relative;
+                        top: -90px;
+                        left: 230px;
+                    }
+                }
+
+                div.blackContainer2 {
+                    div.black {
+                        width: 25vw;
+                        height: 4vw;
+                        background-color: black;
+                        position: relative;
+                    }
+
+                    div.blackOneMove {
+                        top: 0vw;
+                    }
+
+                    div.content {
+                        font-family: 'Grechen Fuemen', cursive;
+                        font-size: 2rem;
+                        color: red;
+                        height: 10vh;
+                        position: relative;
+                        top: -60px;
+                        left: -20px;
+                    }
+
+                    div.backMove {
+                        transform: translate(35px, 10px);
+                        font-size: 3rem;
+                    }
+
+                    div.more {
+                        font-family: 'Grechen Fuemen', cursive;
+                        font-size: 1.5rem;
+                        color: rgb(255, 255, 255);
+                        cursor: pointer;
+                        position: relative;
+                        top: -90px;
+                        left: 230px;
+                    }
+                }
+            }
+
+            div.photoText {
+                width: 48vw;
+                height: 13.5vw;
+                background-color: rgb(255, 255, 255);
+                margin-left: 3.5rem;
+                position: relative;
+                display: flex;
+
+                div#img_chest_div {
+                    background-color: rgb(255, 255, 255);
+                    width: 50%;
+                    height: 100%;
+
+                    img.img_chest_back {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                div#img_back_div {
+                    background-color: rgb(255, 255, 255);
+                    width: 50%;
+                    height: 100%;
+
+                    img.img_back_chest {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                div.animatOrg {
+                    animation: scaleOrg 1s forwards;
+                }
+
+                div.animatUp {
+                    animation: scaleUp 1s linear forwards;
+                }
+
+                div.animatDown {
+                    animation: scaleDown 1s linear forwards;
+                }
+
+                ul {
+                    font-size: 1.75rem;
+                    position: absolute;
+                    left: 40px;
+                    top: 30px;
+                    z-index: 2;
+                }
+            }
+        }
+
+        div.shoulderLegs {
+            display: flex;
+            justify-content: start;
+
+            div.photoText {
+                width: 57vw;
+                height: 13.5vw;
+                background-color: rgb(255, 255, 255);
+                margin-right: 3rem;
+                position: relative;
+                display: flex;
+
+                div#img_shoulder_div {
+                    width: 50%;
+                    height: 100%;
+
+                    img.img_shoulder_legs {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                div#img_legs_div {
+                    width: 50%;
+                    height: 100%;
+
+                    img.img_legs_shoulder {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                div.animatOrg {
+                    animation: scaleOrg 1s forwards;
+                }
+
+                div.animatUp {
+                    animation: scaleUp 1s linear forwards;
+                }
+
+                div.animatDown {
+                    animation: scaleDown 1s linear forwards;
+                }
+
+                ul {
+                    font-size: 1.75rem;
+                    position: absolute;
+                    left: 40px;
+                    top: 30px;
+                    z-index: 2;
+                }
+            }
+
+            div.blackRight {
+                div.blackContainer3 {
+                    height: 21vh;
+
+                    div.black {
+                        width: 25vw;
+                        height: 4vw;
+                        background-color: black;
+                        border: 1px white solid;
+                        position: relative;
+                    }
+
+                    div.blackOneMove {
+                        top: 0vw;
+                    }
+
+                    div.content {
+                        font-family: 'Grechen Fuemen', cursive;
+                        font-size: 2rem;
+                        color: rgb(255, 0, 0);
+                        height: 10vh;
+                        width: 20vw;
+                        position: relative;
+                        top: -60px;
+                        left: -20px;
+                    }
+
+                    div.shoulderMove {
+                        transform: translate(35px, 10px);
+                        font-size: 3rem;
+                    }
+
+                    div.more {
+                        font-family: 'Grechen Fuemen', cursive;
+                        font-size: 1.5rem;
+                        color: rgb(255, 255, 255);
+                        cursor: pointer;
+                        position: relative;
+                        top: -90px;
+                        left: 230px;
+                    }
+                }
+
+                div.blackContainer4 {
+                    div.legs {
+                        width: 25vw;
+                        height: 4vw;
+                        background-color: black;
+                        border: 1px white solid;
+                        position: relative;
+                    }
+
+                    div.blackOneMove {
+                        top: 0vw;
+                    }
+
+                    div.content {
+                        font-family: 'Grechen Fuemen', cursive;
+                        font-size: 2rem;
+                        color: rgb(255, 0, 0);
+                        height: 10vh;
+                        position: relative;
+                        top: -60px;
+                        left: -20px;
+                    }
+
+                    div.legsMove {
+                        transform: translate(35px, 10px);
+                        font-size: 3rem;
+                    }
+
+                    div.more {
+                        font-family: 'Grechen Fuemen', cursive;
+                        font-size: 1.5rem;
+                        color: rgb(255, 255, 255);
+                        cursor: pointer;
+                        position: relative;
+                        top: -90px;
+                        left: 230px;
+                    }
+                }
+            }
+
+            div.whiteSpace {
+                width: 23vw;
+                height: 10vw;
+                background-color: white;
+            }
+        }
+    }
+}
+
+// This is page3((Function movement)
+section#pageThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    article p {
+        font-size: 1.25rem;
+        margin: 1.5rem 2.5rem;
+
+        span {
+            font-size: 3rem;
+        }
+    }
+
+    div#outSideBox {
+        background-color: #C9ECF7;
+        display: flex;
+        width: 50vw;
+        height: 14vw;
+        border-radius: 20px;
+        margin-top: 2rem;
+
+        div#wordPhoto {
+            display: flex;
+            flex-direction: column;
+
+            div#word {
+                p {
+                    font-family: 'Grechen Fuemen', cursive;
+                    font-size: 2.5rem;
+                    margin: 0 2rem;
+                }
+            }
+
+            div#ftPhoto {
+                height: 10vw;
+                width: 15vw;
+                margin-left: 5rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        div#ati {
+            display: flex;
+            align-items: center;
+            margin-left: 0.5rem;
+
+            p {
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+    div#icon {
+        display: flex;
+        margin: 2.5rem 1.75rem;
+
+        div {
+            height: 5vw;
+            width: 5vw;
+            margin: 0 1rem;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+
+            img.jump {
+                display: inline-block;
+                position: relative;
+                animation: iconJump 0.7s infinite linear;
+            }
+        }
+    }
+
+    div#btns button {
+        background-color: black;
+        width: 1vw;
+        height: 1vw;
+        border-radius: 10px;
+        margin: 1rem;
+        cursor: pointer;
+    }
+}
+
+// <!-- This is page4(BMI) -->   
+section#pageFour {
+    flex-direction: column;
+
+    div#title p {
+        font-family: 'Grechen Fuemen', cursive;
+        font-size: 3rem;
+        color: red;
+        padding-left: 1.5rem;
+        margin: 1rem;
+    }
+
+    div#navs {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 3.5rem;
+
+        .redBar {
+            font-family: 'Grechen Fuemen', cursive;
+            background-color: #CE2E2E;
+            font-size: 1.75rem;
+            color: white;
+            padding: 1rem;
+            border-radius: 50px;
+        }
+    }
+
+    div#forms {
+        display: flex;
+        justify-content: center;
+        // height: 60vh;
+        width: 90vw;
+        margin: 3rem;
+
+        form#form_L {
+            height: 100%;
+            width: 45%;
+            background-color: black;
+            color: white;
+
+            div {
+                margin: 1rem 2.25rem;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                label {
+                    width: 30%;
+                    
+                }
+
+                input {
+                    padding: 0.4rem 0;
+                    background-color: rgb(207, 207, 207);
+                    text-align: right;
+                    border: none;
+                   
+                }
+
+                input:focus {
+                    outline: none;
+                }
+
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                }
+             
+                select {
+                    width: 162px;
+                    padding: 0.4rem 0;
+                    background-color: rgb(207, 207, 207);
+                    
+                }
+
+                button {
+                    background-color: #CE2E2E;
+                    margin-left: 11rem;
+                    height: 6vh;
+                    width: 10vw;
+                    font-size: 1rem;
+                    cursor: pointer;
+                }
+            }
+
+            p {
+                padding-top: 1rem;
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+
+
+
+        form#form_R {
+            // height: 100%;
+            width: 65%;
+            background-color: rgb(207, 207, 207);
+            flex-direction: column;
+
+            p {
+                padding: 1rem 2rem;
+                font-size: 2rem;
+            }
+
+            div#btns {
+                display: flex;
+                justify-content: space-evenly;
+
+                button {
+                    background-color: #CE2E2E;
+                    color: white;
+                    height: 7vh;
+                    width: 15vw;
+                    font-size: 1.25rem;
+                    border-radius: 15px;
+                    border-style: none;
+                    cursor: pointer;
+                }
+
+                button#dont {
+                    background-color: black;
+                }
+            }
+
+            ul {
+                min-height: 60%;
+
+                li {
+                    margin-left: 2rem;
+                    padding: 1rem 0;
+                    font-size: 1.25rem;
+                    list-style-type: none;
+                }
+
+            }
+
+            div.covered {
+                height: 100vh;
+                width: 100vw;
+                background-color: black;
+                opacity: 0.6;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                z-index: 0;
+            }
+
+            div.dontMessegeText {
+                height: 50vh;
+                width: 50vw;
+                background-color: white;
+                position: fixed;
+                top: 25vh;
+                left: 25vw;
+                z-index: 0;
+                font-size: 2rem;
+                line-height: 50vh;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            div.wannaMessegeText {
+                height: 50vh;
+                width: 50vw;
+                background-color: white;
+                position: fixed;
+                top: 25vh;
+                left: 25vw;
+                z-index: 0;
+                font-size: 2rem;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                cursor: pointer;
+            }
+
+        }
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    div#logo {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 20vw;
+            height: 15vh;
+        }
+    }
+
+    div#link {
+        background-color: rgb(207, 207, 207);
+        flex-direction: column;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            margin: 3rem;
+            font-size: 1.5rem;
+            li a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+    div#copyRight {
+        background-color: rgb(207, 207, 207);
+        padding: 3rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    section#pageOne {
+        div.photos {
+            width: 100vw;
+            flex-wrap: wrap;
+
+            div.photoContainer {
+                width: 50vw;
+            }
+        }
+    }
+
+    section#pageTwo {
+        div.photoBox {
+            div.chestBack {
+                div.blackLeft {
+                    div.blackContainer1 div#more1_1 {
+                        color: black;
+                        top: -60px;
+                        left: 0px;
+                    }
+
+                    div.blackContainer2 div#more1_2 {
+                        color: black;
+                        top: -60px;
+                        left: 0px;
+                    }
+                }
+            }
+
+            div.shoulderLegs {
+                div.blackRight {
+                    div.blackContainer3 div#more2_1 {
+                        color: black;
+                        top: -60px;
+                        left: 0px;
+                    }
+
+                    div.blackContainer4 div#more2_2 {
+                        color: black;
+                        top: -60px;
+                        left: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    section#pageThree {
+        div#outSideBox {
+            width: 70vw;
+            height: 25vw;
+
+            div#wordPhoto {
+                width: 50vw;
+
+                div#ftPhoto {
+                    height: 35vh;
+                    width: 25vw;
+                }
+            }
+        }
+
+        div#icon div {
+            height: 6.5vw;
+            width: 6.5vw;
+            margin: 0 1rem;
+        }
+
+        div#btns button {
+            width: 1.5vw;
+            height: 1.5vw;
+        }
+    }
+
+    section#pageFour div#navs .redBar {
+        font-size: 1.25rem;
+    }
+    section#pageFour div#forms form#form_R ul li{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    header {
+        height: 100vh;
+        display: flex;
+        color: gray;
+
+        div {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        nav ul {
+            display: flex;
+
+            li {
+                margin-left: 2rem;
+                width: 350px;
+                text-align: start;
+
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    section#pageOne div.photos div.photobtn div.photoContainer {
+        img {
+            width: 25vw;
+        }
+    }
+
+    section#pageFour div#forms form#form_R div#btns button {
+        font-size: 1rem;
+    }
+    section#pageFour div#forms {
+        flex-direction: column;
+        align-items: center;
+        form#form_L{
+            width: 60%;
+            div button#cal{
+                width: 115px;
+            }
+        }
+        form#form_R{
+            width: 60%;
+            height: 55vh;
+            ul li{
+                padding: 0.25rem;
+            } 
+        }
+        
+    }
+}
+
+@media screen and (max-width:800px) {
+    section#pageTwo {
+        div.photoBox {
+            div.chestBack {
+                div.photoText {
+                    width: 250vw;
+                    height: 24.5vw;
+                    display: flex;
+                    flex-direction: column;
+
+                    div#img_chest_div {
+                        width: 100%;
+                        height: 50%;
+                    }
+
+                    div#img_back_div {
+                        width: 100%;
+                        height: 50%;
+                    }
+
+                    div.animatOrg {
+                        animation: scaleOrg800 1s forwards;
+                    }
+
+                    div.animatUp {
+                        animation: scaleUp800 1s linear forwards;
+                    }
+
+                    div.animatDown {
+                        animation: scaleDown800 1s linear forwards;
+                    }
+                }
+            }
+
+            div.shoulderLegs {
+                div.photoText {
+                    width: 250vw;
+                    height: 24.5vw;
+                    display: flex;
+                    flex-direction: column;
+
+                    div#img_shoulder_div {
+                        width: 100%;
+                        height: 50%;
+                    }
+
+                    div#img_legs_div {
+                        width: 100%;
+                        height: 50%;
+                    }
+
+                    div.animatOrg {
+                        animation: scaleOrg800 1s forwards;
+                    }
+
+                    div.animatUp {
+                        animation: scaleUp800 1s linear forwards;
+                    }
+
+                    div.animatDown {
+                        animation: scaleDown800 1s linear forwards;
+                    }
+                }
+            }
+        }
+    }
+
+    section#pageThree {
+        div#outSideBox {
+            width: 90vw;
+            height: 25vw;
+
+            div#wordPhoto {
+                width: 50vw;
+
+                div#ftPhoto {
+                    height: 18vh;
+                    width: 30vw;
+                }
+            }
+
+            div#ati {
+                width: 50vw;
+            }
+        }
+
+        div#icon div {
+            height: 8vw;
+            width: 8vw;
+            margin: 0 1rem;
+        }
+
+        div#btns button {
+            width: 2vw;
+            height: 2vw;
+        }
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    section#pageOne {
+        div.photos {
+            margin: 0;
+            width: 100vw;
+            flex-wrap: wrap;
+
+            div.photobtn {
+                div.photoContainer {
+                    width: 100vw;
+
+                    img {
+                        width: 40vw;
+                        height: 40vw;
+                    }
+                }
+
+                button {
+                    width: 45vw;
+                }
+            }
+        }
+    }
+
+    section#pageTwo div.photoBox div.chestBack div.photoText {
+        height: 32vw;
+
+        ul {
+            font-size: 1.2rem;
+        }
+    }
+
+    section#pageTwo div.photoBox div.shoulderLegs div.photoText {
+        height: 32vw;
+
+        ul {
+            font-size: 1.2rem;
+        }
+    }
+
+    section#pageThree {
+        div#outSideBox {
+            height: 50vh;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+            div#wordPhoto {
+                width: 90vw;
+
+                div#ftPhoto {
+                    height: 25vw;
+                    width: 50vw;
+                }
+            }
+
+            div#ati {
+                width: 80vw;
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        div#icon {
+            margin: 1rem 1.25rem;
+
+            div {
+                height: 10vw;
+                width: 10vw;
+                margin: 0 1rem;
+            }
+        }
+
+        div#btns button {
+            width: 2.2vw;
+            height: 2.2vw;
+        }
+    }
+    section#pageFour div#forms {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+        width: 80vw;
+        form#form_L{
+            width: 100%;
+            div button#cal{
+                width: 160px;
+            }
+        }
+        form#form_R{
+            width: 100%;
+            height: 55vh;
+            ul li{
+                padding: 0.25rem;
+            } 
+        }
+        
+    }
+    footer{
+        div#logo img{
+            width: 35vw;
+        }
+        div#link ul{
+            font-size: 1rem;
+        }
+    } 
+}
+
+@media screen and (max-width:400px) {
+    section#pageOne div.photos div.photobtn button {
+        width: 45vw;
+    }
+
+    section#pageTwo div.photoBox div.chestBack div.photoText {
+        width: 100vw;
+        height: 50vw;
+    }
+
+    section#pageTwo div.photoBox div.shoulderLegs div.photoText {
+        width: 100vw;
+        height: 50vw;
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        width: 50%;
+    }
+
+    to {
+        width: 100%;
+        opacity: 0.55;
+    }
+}
+
+@keyframes scaleDown {
+    from {
+        width: 50%;
+    }
+
+    to {
+        width: 0%;
+    }
+}
+
+@keyframes scaleOrg {
+    from {
+        width: 50%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes scaleUp800 {
+    from {
+        height: 50%;
+    }
+
+    to {
+        height: 100%;
+        opacity: 0.55;
+    }
+}
+
+@keyframes scaleDown800 {
+    from {
+        height: 50%;
+    }
+
+    to {
+        height: 0%;
+    }
+}
+
+@keyframes scaleOrg800 {
+    from {
+        height: 50%;
+    }
+
+    to {
+        height: 50%;
+    }
+}
+
+@keyframes iconJump {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.7em;
+    }
+
+    70% {
+        top: -0.5em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(2520deg);
+    }
+}

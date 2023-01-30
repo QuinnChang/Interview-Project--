@@ -1,0 +1,1318 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#scrollToTop {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  -webkit-box-shadow: 0 0 14px -5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 14px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-indent: 4px;
+  cursor: pointer;
+}
+
+#scrollToTop:hover {
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 400px;
+          flex: 1 1 400px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 10vw;
+  width: 100%;
+  background-color: black;
+}
+
+header div {
+  width: 20%;
+}
+
+header div img {
+  height: 85%;
+  width: 100%;
+}
+
+header nav {
+  width: 80%;
+  font-family: 'Grechen Fuemen', cursive;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 350px;
+          flex: 1 1 350px;
+}
+
+header nav ul li {
+  width: 200px;
+  text-align: center;
+}
+
+header nav ul li a {
+  word-break: break-word;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul a:hover {
+  color: red;
+}
+
+section#pageOne {
+  position: relative;
+}
+
+section#pageOne article p {
+  font-size: 1.25rem;
+  margin: 1.5rem 2.5rem;
+}
+
+section#pageOne article p span {
+  font-size: 3rem;
+}
+
+section#pageOne div.photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem;
+}
+
+section#pageOne div.photos div.photobtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#pageOne div.photos div.photobtn div.photoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#pageOne div.photos div.photobtn div.photoContainer img {
+  margin: 0rem 3.5rem;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+section#pageOne div.photos div.photobtn div.photoContainer img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+section#pageOne div.photos div.photobtn button {
+  font-family: 'Grechen Fuemen', cursive;
+  color: red;
+  background-color: black;
+  font-size: 2rem;
+  border-radius: 30px;
+  width: 55%;
+  margin: 2rem 0;
+}
+
+section#pageOne div.photos div.photobtn button:hover {
+  color: white;
+}
+
+.active {
+  color: red;
+}
+
+section#pageTwo article p {
+  font-size: 1.25rem;
+  margin: 1.5rem 2.5rem;
+}
+
+section#pageTwo article p span {
+  font-size: 3rem;
+}
+
+section#pageTwo div.photoBox {
+  margin: 3rem;
+}
+
+section#pageTwo div.photoBox div.chestBack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+section#pageTwo div.photoBox div.chestBack div.whiteSpace {
+  width: 23vw;
+  height: 10vw;
+  background-color: white;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer1 {
+  height: 21vh;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer1 div.black {
+  width: 25vw;
+  height: 4vw;
+  background-color: black;
+  position: relative;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer1 div.blackOneMove {
+  top: 0vw;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer1 div.content {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 2rem;
+  color: red;
+  height: 10vh;
+  position: relative;
+  top: -60px;
+  left: -20px;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer1 div.chestMove {
+  -webkit-transform: translate(35px, 10px);
+          transform: translate(35px, 10px);
+  font-size: 3rem;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer1 div.more {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  top: -90px;
+  left: 230px;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer2 div.black {
+  width: 25vw;
+  height: 4vw;
+  background-color: black;
+  position: relative;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer2 div.blackOneMove {
+  top: 0vw;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer2 div.content {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 2rem;
+  color: red;
+  height: 10vh;
+  position: relative;
+  top: -60px;
+  left: -20px;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer2 div.backMove {
+  -webkit-transform: translate(35px, 10px);
+          transform: translate(35px, 10px);
+  font-size: 3rem;
+}
+
+section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer2 div.more {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  top: -90px;
+  left: 230px;
+}
+
+section#pageTwo div.photoBox div.chestBack div.photoText {
+  width: 48vw;
+  height: 13.5vw;
+  background-color: white;
+  margin-left: 3.5rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#pageTwo div.photoBox div.chestBack div.photoText div#img_chest_div {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+}
+
+section#pageTwo div.photoBox div.chestBack div.photoText div#img_chest_div img.img_chest_back {
+  width: 100%;
+  height: 100%;
+}
+
+section#pageTwo div.photoBox div.chestBack div.photoText div#img_back_div {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+}
+
+section#pageTwo div.photoBox div.chestBack div.photoText div#img_back_div img.img_back_chest {
+  width: 100%;
+  height: 100%;
+}
+
+section#pageTwo div.photoBox div.chestBack div.photoText div.animatOrg {
+  -webkit-animation: scaleOrg 1s forwards;
+          animation: scaleOrg 1s forwards;
+}
+
+section#pageTwo div.photoBox div.chestBack div.photoText div.animatUp {
+  -webkit-animation: scaleUp 1s linear forwards;
+          animation: scaleUp 1s linear forwards;
+}
+
+section#pageTwo div.photoBox div.chestBack div.photoText div.animatDown {
+  -webkit-animation: scaleDown 1s linear forwards;
+          animation: scaleDown 1s linear forwards;
+}
+
+section#pageTwo div.photoBox div.chestBack div.photoText ul {
+  font-size: 1.75rem;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  z-index: 2;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.photoText {
+  width: 57vw;
+  height: 13.5vw;
+  background-color: white;
+  margin-right: 3rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.photoText div#img_shoulder_div {
+  width: 50%;
+  height: 100%;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.photoText div#img_shoulder_div img.img_shoulder_legs {
+  width: 100%;
+  height: 100%;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.photoText div#img_legs_div {
+  width: 50%;
+  height: 100%;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.photoText div#img_legs_div img.img_legs_shoulder {
+  width: 100%;
+  height: 100%;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.photoText div.animatOrg {
+  -webkit-animation: scaleOrg 1s forwards;
+          animation: scaleOrg 1s forwards;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.photoText div.animatUp {
+  -webkit-animation: scaleUp 1s linear forwards;
+          animation: scaleUp 1s linear forwards;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.photoText div.animatDown {
+  -webkit-animation: scaleDown 1s linear forwards;
+          animation: scaleDown 1s linear forwards;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.photoText ul {
+  font-size: 1.75rem;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  z-index: 2;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer3 {
+  height: 21vh;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer3 div.black {
+  width: 25vw;
+  height: 4vw;
+  background-color: black;
+  border: 1px white solid;
+  position: relative;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer3 div.blackOneMove {
+  top: 0vw;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer3 div.content {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 2rem;
+  color: red;
+  height: 10vh;
+  width: 20vw;
+  position: relative;
+  top: -60px;
+  left: -20px;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer3 div.shoulderMove {
+  -webkit-transform: translate(35px, 10px);
+          transform: translate(35px, 10px);
+  font-size: 3rem;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer3 div.more {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  top: -90px;
+  left: 230px;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer4 div.legs {
+  width: 25vw;
+  height: 4vw;
+  background-color: black;
+  border: 1px white solid;
+  position: relative;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer4 div.blackOneMove {
+  top: 0vw;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer4 div.content {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 2rem;
+  color: red;
+  height: 10vh;
+  position: relative;
+  top: -60px;
+  left: -20px;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer4 div.legsMove {
+  -webkit-transform: translate(35px, 10px);
+          transform: translate(35px, 10px);
+  font-size: 3rem;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer4 div.more {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  top: -90px;
+  left: 230px;
+}
+
+section#pageTwo div.photoBox div.shoulderLegs div.whiteSpace {
+  width: 23vw;
+  height: 10vw;
+  background-color: white;
+}
+
+section#pageThree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#pageThree article p {
+  font-size: 1.25rem;
+  margin: 1.5rem 2.5rem;
+}
+
+section#pageThree article p span {
+  font-size: 3rem;
+}
+
+section#pageThree div#outSideBox {
+  background-color: #C9ECF7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 14vw;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+section#pageThree div#outSideBox div#wordPhoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section#pageThree div#outSideBox div#wordPhoto div#word p {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 2.5rem;
+  margin: 0 2rem;
+}
+
+section#pageThree div#outSideBox div#wordPhoto div#ftPhoto {
+  height: 10vw;
+  width: 15vw;
+  margin-left: 5rem;
+}
+
+section#pageThree div#outSideBox div#wordPhoto div#ftPhoto img {
+  width: 100%;
+  height: 100%;
+}
+
+section#pageThree div#outSideBox div#ati {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 0.5rem;
+}
+
+section#pageThree div#outSideBox div#ati p {
+  font-size: 1.25rem;
+}
+
+section#pageThree div#icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2.5rem 1.75rem;
+}
+
+section#pageThree div#icon div {
+  height: 5vw;
+  width: 5vw;
+  margin: 0 1rem;
+}
+
+section#pageThree div#icon div img {
+  height: 100%;
+  width: 100%;
+}
+
+section#pageThree div#icon div img.jump {
+  display: inline-block;
+  position: relative;
+  -webkit-animation: iconJump 0.7s infinite linear;
+          animation: iconJump 0.7s infinite linear;
+}
+
+section#pageThree div#btns button {
+  background-color: black;
+  width: 1vw;
+  height: 1vw;
+  border-radius: 10px;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+section#pageFour {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section#pageFour div#title p {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 3rem;
+  color: red;
+  padding-left: 1.5rem;
+  margin: 1rem;
+}
+
+section#pageFour div#navs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0 3.5rem;
+}
+
+section#pageFour div#navs .redBar {
+  font-family: 'Grechen Fuemen', cursive;
+  background-color: #CE2E2E;
+  font-size: 1.75rem;
+  color: white;
+  padding: 1rem;
+  border-radius: 50px;
+}
+
+section#pageFour div#forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90vw;
+  margin: 3rem;
+}
+
+section#pageFour div#forms form#form_L {
+  height: 100%;
+  width: 45%;
+  background-color: black;
+  color: white;
+}
+
+section#pageFour div#forms form#form_L div {
+  margin: 1rem 2.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section#pageFour div#forms form#form_L div label {
+  width: 30%;
+}
+
+section#pageFour div#forms form#form_L div input {
+  padding: 0.4rem 0;
+  background-color: #cfcfcf;
+  text-align: right;
+  border: none;
+}
+
+section#pageFour div#forms form#form_L div input:focus {
+  outline: none;
+}
+
+section#pageFour div#forms form#form_L div input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+section#pageFour div#forms form#form_L div select {
+  width: 162px;
+  padding: 0.4rem 0;
+  background-color: #cfcfcf;
+}
+
+section#pageFour div#forms form#form_L div button {
+  background-color: #CE2E2E;
+  margin-left: 11rem;
+  height: 6vh;
+  width: 10vw;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+section#pageFour div#forms form#form_L p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+section#pageFour div#forms form#form_R {
+  width: 65%;
+  background-color: #cfcfcf;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section#pageFour div#forms form#form_R p {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+
+section#pageFour div#forms form#form_R div#btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+section#pageFour div#forms form#form_R div#btns button {
+  background-color: #CE2E2E;
+  color: white;
+  height: 7vh;
+  width: 15vw;
+  font-size: 1.25rem;
+  border-radius: 15px;
+  border-style: none;
+  cursor: pointer;
+}
+
+section#pageFour div#forms form#form_R div#btns button#dont {
+  background-color: black;
+}
+
+section#pageFour div#forms form#form_R ul {
+  min-height: 60%;
+}
+
+section#pageFour div#forms form#form_R ul li {
+  margin-left: 2rem;
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  list-style-type: none;
+}
+
+section#pageFour div#forms form#form_R div.covered {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.6;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+section#pageFour div#forms form#form_R div.dontMessegeText {
+  height: 50vh;
+  width: 50vw;
+  background-color: white;
+  position: fixed;
+  top: 25vh;
+  left: 25vw;
+  z-index: 0;
+  font-size: 2rem;
+  line-height: 50vh;
+  text-align: center;
+  cursor: pointer;
+}
+
+section#pageFour div#forms form#form_R div.wannaMessegeText {
+  height: 50vh;
+  width: 50vw;
+  background-color: white;
+  position: fixed;
+  top: 25vh;
+  left: 25vw;
+  z-index: 0;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer div#logo {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer div#logo img {
+  width: 20vw;
+  height: 15vh;
+}
+
+footer div#link {
+  background-color: #cfcfcf;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer div#link ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 3rem;
+  font-size: 1.5rem;
+}
+
+footer div#link ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer div#copyRight {
+  background-color: #cfcfcf;
+  padding: 3rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  section#pageOne div.photos {
+    width: 100vw;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#pageOne div.photos div.photoContainer {
+    width: 50vw;
+  }
+  section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer1 div#more1_1 {
+    color: black;
+    top: -60px;
+    left: 0px;
+  }
+  section#pageTwo div.photoBox div.chestBack div.blackLeft div.blackContainer2 div#more1_2 {
+    color: black;
+    top: -60px;
+    left: 0px;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer3 div#more2_1 {
+    color: black;
+    top: -60px;
+    left: 0px;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.blackRight div.blackContainer4 div#more2_2 {
+    color: black;
+    top: -60px;
+    left: 0px;
+  }
+  section#pageThree div#outSideBox {
+    width: 70vw;
+    height: 25vw;
+  }
+  section#pageThree div#outSideBox div#wordPhoto {
+    width: 50vw;
+  }
+  section#pageThree div#outSideBox div#wordPhoto div#ftPhoto {
+    height: 35vh;
+    width: 25vw;
+  }
+  section#pageThree div#icon div {
+    height: 6.5vw;
+    width: 6.5vw;
+    margin: 0 1rem;
+  }
+  section#pageThree div#btns button {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+  section#pageFour div#navs .redBar {
+    font-size: 1.25rem;
+  }
+  section#pageFour div#forms form#form_R ul li {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  header {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: gray;
+  }
+  header div {
+    width: 100%;
+  }
+  header div img {
+    width: 100%;
+  }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav ul li {
+    margin-left: 2rem;
+    width: 350px;
+    text-align: start;
+  }
+  header nav ul li a {
+    font-size: 2rem;
+  }
+  section#pageOne div.photos div.photobtn div.photoContainer img {
+    width: 25vw;
+  }
+  section#pageFour div#forms form#form_R div#btns button {
+    font-size: 1rem;
+  }
+  section#pageFour div#forms {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section#pageFour div#forms form#form_L {
+    width: 60%;
+  }
+  section#pageFour div#forms form#form_L div button#cal {
+    width: 115px;
+  }
+  section#pageFour div#forms form#form_R {
+    width: 60%;
+    height: 55vh;
+  }
+  section#pageFour div#forms form#form_R ul li {
+    padding: 0.25rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  section#pageTwo div.photoBox div.chestBack div.photoText {
+    width: 250vw;
+    height: 24.5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section#pageTwo div.photoBox div.chestBack div.photoText div#img_chest_div {
+    width: 100%;
+    height: 50%;
+  }
+  section#pageTwo div.photoBox div.chestBack div.photoText div#img_back_div {
+    width: 100%;
+    height: 50%;
+  }
+  section#pageTwo div.photoBox div.chestBack div.photoText div.animatOrg {
+    -webkit-animation: scaleOrg800 1s forwards;
+            animation: scaleOrg800 1s forwards;
+  }
+  section#pageTwo div.photoBox div.chestBack div.photoText div.animatUp {
+    -webkit-animation: scaleUp800 1s linear forwards;
+            animation: scaleUp800 1s linear forwards;
+  }
+  section#pageTwo div.photoBox div.chestBack div.photoText div.animatDown {
+    -webkit-animation: scaleDown800 1s linear forwards;
+            animation: scaleDown800 1s linear forwards;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.photoText {
+    width: 250vw;
+    height: 24.5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.photoText div#img_shoulder_div {
+    width: 100%;
+    height: 50%;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.photoText div#img_legs_div {
+    width: 100%;
+    height: 50%;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.photoText div.animatOrg {
+    -webkit-animation: scaleOrg800 1s forwards;
+            animation: scaleOrg800 1s forwards;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.photoText div.animatUp {
+    -webkit-animation: scaleUp800 1s linear forwards;
+            animation: scaleUp800 1s linear forwards;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.photoText div.animatDown {
+    -webkit-animation: scaleDown800 1s linear forwards;
+            animation: scaleDown800 1s linear forwards;
+  }
+  section#pageThree div#outSideBox {
+    width: 90vw;
+    height: 25vw;
+  }
+  section#pageThree div#outSideBox div#wordPhoto {
+    width: 50vw;
+  }
+  section#pageThree div#outSideBox div#wordPhoto div#ftPhoto {
+    height: 18vh;
+    width: 30vw;
+  }
+  section#pageThree div#outSideBox div#ati {
+    width: 50vw;
+  }
+  section#pageThree div#icon div {
+    height: 8vw;
+    width: 8vw;
+    margin: 0 1rem;
+  }
+  section#pageThree div#btns button {
+    width: 2vw;
+    height: 2vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section#pageOne div.photos {
+    margin: 0;
+    width: 100vw;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#pageOne div.photos div.photobtn div.photoContainer {
+    width: 100vw;
+  }
+  section#pageOne div.photos div.photobtn div.photoContainer img {
+    width: 40vw;
+    height: 40vw;
+  }
+  section#pageOne div.photos div.photobtn button {
+    width: 45vw;
+  }
+  section#pageTwo div.photoBox div.chestBack div.photoText {
+    height: 32vw;
+  }
+  section#pageTwo div.photoBox div.chestBack div.photoText ul {
+    font-size: 1.2rem;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.photoText {
+    height: 32vw;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.photoText ul {
+    font-size: 1.2rem;
+  }
+  section#pageThree div#outSideBox {
+    height: 50vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  section#pageThree div#outSideBox div#wordPhoto {
+    width: 90vw;
+  }
+  section#pageThree div#outSideBox div#wordPhoto div#ftPhoto {
+    height: 25vw;
+    width: 50vw;
+  }
+  section#pageThree div#outSideBox div#ati {
+    width: 80vw;
+  }
+  section#pageThree div#outSideBox div#ati p {
+    font-size: 1rem;
+  }
+  section#pageThree div#icon {
+    margin: 1rem 1.25rem;
+  }
+  section#pageThree div#icon div {
+    height: 10vw;
+    width: 10vw;
+    margin: 0 1rem;
+  }
+  section#pageThree div#btns button {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
+  section#pageFour div#forms {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 1rem;
+    width: 80vw;
+  }
+  section#pageFour div#forms form#form_L {
+    width: 100%;
+  }
+  section#pageFour div#forms form#form_L div button#cal {
+    width: 160px;
+  }
+  section#pageFour div#forms form#form_R {
+    width: 100%;
+    height: 55vh;
+  }
+  section#pageFour div#forms form#form_R ul li {
+    padding: 0.25rem;
+  }
+  footer div#logo img {
+    width: 35vw;
+  }
+  footer div#link ul {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  section#pageOne div.photos div.photobtn button {
+    width: 45vw;
+  }
+  section#pageTwo div.photoBox div.chestBack div.photoText {
+    width: 100vw;
+    height: 50vw;
+  }
+  section#pageTwo div.photoBox div.shoulderLegs div.photoText {
+    width: 100vw;
+    height: 50vw;
+  }
+}
+
+@-webkit-keyframes scaleUp {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 100%;
+    opacity: 0.55;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 100%;
+    opacity: 0.55;
+  }
+}
+
+@-webkit-keyframes scaleDown {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes scaleDown {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+@-webkit-keyframes scaleOrg {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes scaleOrg {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes scaleUp800 {
+  from {
+    height: 50%;
+  }
+  to {
+    height: 100%;
+    opacity: 0.55;
+  }
+}
+
+@keyframes scaleUp800 {
+  from {
+    height: 50%;
+  }
+  to {
+    height: 100%;
+    opacity: 0.55;
+  }
+}
+
+@-webkit-keyframes scaleDown800 {
+  from {
+    height: 50%;
+  }
+  to {
+    height: 0%;
+  }
+}
+
+@keyframes scaleDown800 {
+  from {
+    height: 50%;
+  }
+  to {
+    height: 0%;
+  }
+}
+
+@-webkit-keyframes scaleOrg800 {
+  from {
+    height: 50%;
+  }
+  to {
+    height: 50%;
+  }
+}
+
+@keyframes scaleOrg800 {
+  from {
+    height: 50%;
+  }
+  to {
+    height: 50%;
+  }
+}
+
+@-webkit-keyframes iconJump {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.7em;
+  }
+  70% {
+    top: -0.5em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes iconJump {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.7em;
+  }
+  70% {
+    top: -0.5em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotate(2520deg);
+            transform: rotate(2520deg);
+  }
+}
+
+@keyframes rotate {
+  to {
+    -webkit-transform: rotate(2520deg);
+            transform: rotate(2520deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
