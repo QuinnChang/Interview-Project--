@@ -51,7 +51,7 @@ let more1_1 = document.querySelector("#more1_1");
 
 let img_chest = document.createElement("img");
 img_chest.className = "img_chest_back";
-img_chest.src = "/photo/chest-unsplash.jpg";
+img_chest.src = "photo/chest-unsplash.jpg";
 img_chest.style.display = "block";
 
 let img_chest_div = document.createElement("div");
@@ -107,7 +107,7 @@ let more1_2 = document.querySelector("#more1_2");
 
 let img_back = document.createElement("img");
 img_back.className = "img_back_chest";
-img_back.src = "/photo/back-unsplash.jpg";
+img_back.src = "photo/back-unsplash.jpg";
 img_back.style.display = "block";
 
 let img_back_div = document.createElement("div");
@@ -164,7 +164,7 @@ let more2_1 = document.querySelector("#more2_1");
 
 let img_shoulder = document.createElement("img");
 img_shoulder.className = "img_shoulder_legs";
-img_shoulder.src = "/photo/shoulder-unsplash.jpg";
+img_shoulder.src = "photo/shoulder-unsplash.jpg";
 img_shoulder.style.display = "block";
 
 let img_shoulder_div = document.createElement("div");
@@ -221,7 +221,7 @@ let more2_2 = document.querySelector("#more2_2");
 
 let img_legs = document.createElement("img");
 img_legs.className = "img_legs_shoulder";
-img_legs.src = "/photo/legs-unsplash.jpg";
+img_legs.src = "photo/legs-unsplash.jpg";
 img_legs.style.display = "block";
 
 let img_legs_div = document.createElement("div");
@@ -268,21 +268,21 @@ wordPhoto.append(word, ftPhoto);
 word.append(p_defult);
 con_defult.innerText = "Kettlebells are known to improve overall strength, core power, balance, flexibility, and coordination while also melting fat and sculpting healthy and lean muscles."
 p_defult.innerText = "Kettlebell";
-photo_defult.src = "/photo/kettle-unsplash.jpg"
+photo_defult.src = "photo/kettle-unsplash.jpg"
 
 
 // ----------make icons------------
-const icons = ["/icon/icons8-battleropes.png",
-    "/icon/icons8-deadlift.png",
-    "/icon/icons8-kettlebell.png",
-    "/icon/icons8-trx.png",
-    "/icon/icons8-boxing.png"]
+const icons = ["icon/icons8-battleropes.png",
+    "icon/icons8-deadlift.png",
+    "icon/icons8-kettlebell.png",
+    "icon/icons8-trx.png",
+    "icon/icons8-boxing.png"]
 
-const photos = ["/photo/battlerope-unsplash.jpg",
-    "/photo/deadlift-unsplash.jpg",
-    "/photo/kettle-unsplash.jpg",
-    "/photo/trx-unsplash.jpg",
-    "/photo/boxing-unsplash.jpg"]
+const photos = ["photo/battlerope-unsplash.jpg",
+    "photo/deadlift-unsplash.jpg",
+    "photo/kettle-unsplash.jpg",
+    "photo/trx-unsplash.jpg",
+    "photo/boxing-unsplash.jpg"]
 
 const content = ["Battling ropes are used for fitness training to increase full body strength and conditioning. It can be alternatively used as a resistance training technique. ",
     "The deadlift is a weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, torso perpendicular to the floor, before being placed back on the ground.",
