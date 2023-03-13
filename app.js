@@ -480,6 +480,10 @@ btn_cal.addEventListener("click",e=>{
         ipt_gdr_dft.checked=true;
         opt_dft.selected=true;
 
+      btn_cal.addEventListener("click",e=>{  //resubmit setting
+        console.log("resubmit");
+        form_R.remove();
+      });
 
     let btns= document.createElement("div");
     btns.id="btns";
@@ -500,6 +504,7 @@ btn_cal.addEventListener("click",e=>{
     form_R.append(p,ul,btns,cover,coverDontMessege,coverWannaMessege);
 
     btn_dont.addEventListener("click",e=>{
+        e.preventDefault();
         cover.classList.add("covered");
         coverDontMessege.classList.add("dontMessegeText");
         coverDontMessege.innerText="Did not find what you want?";
@@ -512,6 +517,7 @@ btn_cal.addEventListener("click",e=>{
     });
 
     btn_wanna.addEventListener("click",e=>{
+        e.preventDefault();
         cover.classList.add("covered");
         coverWannaMessege.classList.add("wannaMessegeText");
         coverWannaMessege.innerText="Please leave your contact information.We will serve you as soon as possible.";

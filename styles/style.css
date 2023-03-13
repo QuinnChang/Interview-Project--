@@ -1304,15 +1304,15 @@ footer div#copyRight {
 
 @-webkit-keyframes rotate {
   to {
-    -webkit-transform: rotate(2520deg);
-            transform: rotate(2520deg);
+    -webkit-transform: rotate(3250deg);
+            transform: rotate(3250deg);
   }
 }
 
 @keyframes rotate {
   to {
-    -webkit-transform: rotate(2520deg);
-            transform: rotate(2520deg);
+    -webkit-transform: rotate(3250deg);
+            transform: rotate(3250deg);
   }
 }
 /*# sourceMappingURL=style.css.map */
